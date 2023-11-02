@@ -1,0 +1,5 @@
+disabled_rules:
+  - trailing_comma
+  - trailing_whitespace
+  - file_length
+  - opening_brace

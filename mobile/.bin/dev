@@ -1,0 +1,6 @@
+echo dev
+
+if [ $1 = --ios ] 
+then
+    npx nodemon -w ./modules/ -e .swift -x "npm run ios -- ${@:2}"
+fi
